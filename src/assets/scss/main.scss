@@ -1,0 +1,25 @@
+@import url('./var.scss');
+
+
+.movie-item{
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in;
+    height: 300px;
+    
+}
+.movie-item:hover{
+    transform: scale(1.15);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.788);
+}
+.movie-item__poster{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-repeat: no-repeat;
+}
